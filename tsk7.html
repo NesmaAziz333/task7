@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form action="" method="get">
+		<label for="username" >UserName</label>	<br>
+		<input id="username" type="text" name="user" maxlength="20" minlength="5" autofocus><br>
+		<label for="mail">Email</label>	<br>
+		<input id="mail" type="email" name="mail" disabled value="o@o.com"><br>
+		<input type="text" name="token"  value="92f1fc2fce391ad7" hidden>
+		<hr>
+		<label for="skills">skills</label>
+		<select name="skills" id="skills" >
+        <option value="problem">problem solving</option>
+        <option value="adv">advanced</option>
+        <option value="logical" selected>logical thinking</option>
+        <option value="plan">planning</option>
+        <option value="analysis">analysis</option>
+        <option value="search">search</option>
+		</select>
+		<hr>
+		<label for="job">job</label>
+		<select name="jobs" id="job">
+			<option value="front">front_end</option>
+			<option value="back" selected>back_end</option>
+			<option value="business">business analysis</option>
+			<option value="proj">project manager</option>
+			<option value="scrum ">scrum master</option>
+		</select>
+		<hr>
+		<label for="book">book choose</label>
+		<select name="book" id="choose">
+			<optgroup label="PhP">
+			<option value="1">v5.0</option>
+			<option value="2">v7.0</option>
+			<option value="3">v8.0</option>
+		   </optgroup>
+		   <optgroup  label="python">
+			<option  value="4">v2.0</option>
+			<option value="5">v3.0</option>
+			<option value="6">v4.0</option>
+		   </optgroup>
+		</select>
+		<hr>
+		<textarea name="brief" cols="20" rows="20" placeholder="write here why you want to learn programming"></textarea>
+		<input type="reset" name="reset" value="reset"><br>
+		<input type="submit" name="submit" value="submit">
+	</form>
+</body>
+</html>
